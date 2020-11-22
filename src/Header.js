@@ -4,19 +4,22 @@ import SearchIcon from '@material-ui/icons/Search'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import LanguageIcon from '@material-ui/icons/Language'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
-// import Avatar from './Avatar'
+import {Link} from 'react-router-dom'
+
 
 function Header() {
 
     return (
         <div className='header'>
-            <img
-                className="header__icon"
-                // src='https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png'
-                src='https://storage.googleapis.com/tryon_storare/logo_tryon.png'
-                alt=''
-            />
-
+            <Link to='/'>
+                <img
+                    className="header__icon"
+                    // src='https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png'
+                    src='https://storage.googleapis.com/tryon_storare/logo_tryon.png'
+                    alt=''
+                />
+            </Link>
+            
             <div className='header__center'>
                 <input type='text'/>
                 <SearchIcon/>
