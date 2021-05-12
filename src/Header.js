@@ -4,7 +4,11 @@ import SearchIcon from '@material-ui/icons/Search'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import LanguageIcon from '@material-ui/icons/Language'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
+=======
+import {Link} from 'react-router-dom'
+>>>>>>> 03e781636bd1f5e363931a435e2fcc03644b6fcc
 
 
 function Header() {
@@ -19,18 +23,32 @@ function Header() {
                     alt=''
                 />
             </Link>
+<<<<<<< HEAD
 
             <div className='header__center'>
                 <input type='text' />
                 <SearchIcon />
+=======
+            
+            <div className='header__center'>
+                <input type='text'/>
+                <SearchIcon/>
+>>>>>>> 03e781636bd1f5e363931a435e2fcc03644b6fcc
             </div>
 
             <div className='header__right'>
                 <p>Become a host</p>
+<<<<<<< HEAD
                 <ExpandMoreIcon />
                 <LanguageIcon />
                 <AccountCircleIcon />
             </div>
+=======
+                <ExpandMoreIcon/>
+                <LanguageIcon/>
+                <AccountCircleIcon/>
+            </div> 
+>>>>>>> 03e781636bd1f5e363931a435e2fcc03644b6fcc
         </div>
     )
 }
